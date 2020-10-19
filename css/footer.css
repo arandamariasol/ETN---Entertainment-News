@@ -1,0 +1,18 @@
+footer {
+    background-color: #00004d;  
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 5px;
+    padding: 20px 10px;
+    background-color: #00004d;
+}
+footer ul a, .finfo {
+    color: #ffffff;
+}
+.finfo {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+main {
+    display: flex;
+}
+main img {
+    width: 100px;
+    height: 100 px;
+}
+.second-news {
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+.other-news {
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+
+

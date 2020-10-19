@@ -1,0 +1,16 @@
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    background-color: #e6004c;
+}
+nav ul a {
+    color: #ffffff;
+}
+.showcase {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("/img/etn.png");  
+}
+

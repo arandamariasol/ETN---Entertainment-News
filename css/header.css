@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #cce6ff;*/
+    color: #000000;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 400;   
+}
+header { 
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-bottom: 10px solid #00004d;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+img {
+    width: 100%;
+    /*justify-content: center;*/
+}
+.socialm {
+    order: -1;
+    align-self: center;
+}
+.search {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
