@@ -5,8 +5,18 @@ nav ul {
     padding: 10px 0px;
     background-color: #e6004c;
 }
+@media only screen and (max-width: 600px) {
+    .nav-list {
+        display: flex;
+    }
+}
 nav ul a {
     color: #ffffff;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    display: none;
 }
 .showcase {
     display: flex;
