@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <script src="https://kit.fontawesome.com/83c6fc4c61.js">
+    </script>
+    
     <title>ETN | Entertainment News</title>
 </head>
 <body>
@@ -15,18 +18,27 @@
         <div class="logotype">
             <img src="./img/etn.gif" alt="logotype">
         </div>
-        <div class="search">
-            <form>
-                <input type="text">
-                <input type="submit" value="Search">
-            </form>
-        </div> 
+        <div class="h-right">
+            <div class="date">
+                <p>20/10/2020</p>
+            </div>
+            <div class="search">
+                <form>
+                    <input type="text">
+                    <input type="submit" value="Search">
+                </form>
+            </div> 
+        </div>
         <div class="socialm"> 
-            <ul>
-                <a href=""><li>Facebook</li></a>
-                <a href=""><li>Instagram</li></a>
-                <a href=""><li>Twitter</li></a>
-            </ul>
+            <div class="ic-fb">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="ic-ig">
+                <a href=""><i class="fas fa-envelope-square"></i></a>
+            </div>
+            <div class="ic-tw">
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
         </div>         
     </header>
     <nav>
@@ -36,81 +48,78 @@
             <a href=""><li>Movies</li></a>
             <a href=""><li>Music</li></a>
             <a href=""><li>Celebrities</li></a>
+            <a href=""><li><i class="bars fas fa-bars"></i></li></a>
         </ul>
         <div  class="showcase"> 
             <h1>The show world is here</h1>
         </div>
     </nav>
     <main>
-        <section>
-            <div class="news">
-                <div class="main-news">
-                    <img src="./img/main.jpg" alt="main"><br>
-                    <a href="">Main content</a>
-                    <p>In est ligula, lobortis nec magna sed, eleifend maximus libero. Sed feugiat, est quis imperdiet mattis, leo nunc consequat metus.</p>
+        <section class="news">
+            <div class="main-news">
+                <img src="./img/main.jpg" alt="main"><br>
+                <a href="">Main content</a>
+                <p>In est ligula, lobortis nec magna sed, eleifend maximus libero. Sed feugiat, est quis imperdiet mattis, leo nunc consequat metus.</p>
+            </div>
+            <div class="second-news">
+                <div class="second-1">
+                    <img src="./img/seconda.jpg" alt="seconda"><br>
+                    <a href="">Second A</a>
+                    <p>Vivamus mollis, lorem ac pharetra bibendum, nulla nibh vehicula arcu, eget pharetra enim tortor ac.</p>
                 </div>
-                <div class="second-news">
-                    <div class="second-1">
-                        <img src="./img/seconda.jpg" alt="seconda"><br>
-                        <a href="">Second A</a>
-                        <p>Vivamus mollis, lorem ac pharetra bibendum, nulla nibh vehicula arcu, eget pharetra enim tortor ac.</p>
-                    </div>
-                    <div class="second-2">
-                        <img src="./img/secondb.jpg" alt="secondb"><br>
-                        <a href="">Second B</a>
-                        <p>Vivamus mollis, lorem ac pharetra bibendum, nulla nibh vehicula arcu, eget pharetra enim tortor ac.</p>
-                    </div>       
+                <div class="second-2">
+                    <img src="./img/secondb.jpg" alt="secondb"><br>
+                    <a href="">Second B</a>
+                    <p>Vivamus mollis, lorem ac pharetra bibendum, nulla nibh vehicula arcu, eget pharetra enim tortor ac.</p>
+                </div>       
                 </div>
-                <div class="other-news">
-                    <div class="other-1">
-                        <a href="">Other 1</a>
-                        <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
-                    </div>
-                    <div class="other-2">
-                        <a href="">Other 2</a>
-                        <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
-                    </div>
-                    <div class="other-3">
-                        <a href="">Other 3</a>
-                        <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
-                    </div>
-                    <div class="other-4">
-                        <a href="">Other 4</a>
-                        <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
-                    </div> 
-                    <div class="other-5">
-                        <a href="">Other 5</a>
-                        <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
-                    </div>
-                    <div class="other-6">
-                        <a href="">Other 6</a>
-                        <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
-                    </div>      
+            <div class="other-news">
+                <div class="other-1">
+                    <a href="">Other 1</a>
+                    <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
                 </div>
+                <div class="other-2">
+                    <a href="">Other 2</a>
+                    <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
+                </div>
+                <div class="other-3">
+                    <a href="">Other 3</a>
+                    <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
+                </div>
+                <div class="other-4">
+                    <a href="">Other 4</a>
+                    <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
+                </div> 
+                <div class="other-5">
+                    <a href="">Other 5</a>
+                    <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
+                </div>
+                <div class="other-6">
+                    <a href="">Other 6</a>
+                    <p>Aenean sollicitudin gravida tortor, a imperdiet eros commodo ut. Sed ut facilisis nunc. Fusce vulputate.</p>
+                </div>      
             </div>     
         </section>
-        <aside>
-            <div class="sidebar">
-                <div class="latest">
-                    <h2>Latest News</h2>
-                    <ul>
-                        <img src="./img/latest.jpg" alt="latest1"><a href=""><li>Title 1</li></a>
-                        <img src="./img/latest.jpg" alt="latest2"><a href=""><li>Title 2</li></a>
-                        <img src="./img/latest.jpg" alt="latest3"><a href=""><li>Title 3</li></a>
-                        <img src="./img/latest.jpg" alt="latest4"><a href=""><li>Title 4</li></a>
-                        <img src="./img/latest.jpg" alt="latest5"><a href=""><li>Title 5</li></a>
-                    </ul>
-                </div>
-                <div class="suscribe">
-                    <form>
-                        <label for="fname">Suscribe to our Newsletter</label><br>
-                        <input type="email" id="semail" name="semail">
-                        <input type="submit" value="Suscribe">
-                    </form>
-                </div>
-                <div class="advertising">
-                    <h2>Advertising</h2>
-                </div>
+        <aside class="sidebar">
+            <div class="latest">
+                <h2>Latest News</h2>
+                <ul>
+                    <img src="./img/latest.jpg" alt="latest1"><a href=""><li>Title 1</li></a>
+                    <img src="./img/latest.jpg" alt="latest2"><a href=""><li>Title 2</li></a>
+                    <img src="./img/latest.jpg" alt="latest3"><a href=""><li>Title 3</li></a>
+                    <img src="./img/latest.jpg" alt="latest4"><a href=""><li>Title 4</li></a>
+                    <img src="./img/latest.jpg" alt="latest5"><a href=""><li>Title 5</li></a>
+                </ul>
+            </div>
+            <div class="suscribe">
+                <form>
+                    <label for="fname">Suscribe to our Newsletter</label><br>
+                    <input type="email" id="semail" name="semail">
+                    <input type="submit" value="Suscribe">
+                </form>
+            </div>
+            <div class="advertising">
+                <h2>Advertising</h2>
             </div>
         </aside>        
     </main>

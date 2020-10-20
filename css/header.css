@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    /*background-color: #cce6ff;*/
+    background-color: #f4f1f1;
     color: #000000;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 400;   
@@ -9,7 +9,7 @@ body {
 header { 
     display: flex;
     justify-content: space-around;
-    background-color: #FFFFFF;
+    background-color:#f4f1f1;
     border-bottom: 10px solid #00004d;
 }
 a {
@@ -20,13 +20,44 @@ ul {
 }
 img {
     width: 100%;
-    /*justify-content: center;*/
+}
+.logotype {
+    width: 15%;
 }
 .socialm {
+    display: flex;
     order: -1;
-    align-self: center;
+    align-self: flex-start;
+    flex-basis: 15%;    
+}
+.ic-fb {
+    display: flex;
+    width: 20%;
+    padding: 20px;
+    
+}
+.ic-ig {
+    display: flex;
+    width: 20%;
+    padding: 20px;
+    
+}
+.ic-tw {
+    display: flex;
+    width: 20%;
+    padding: 20px;
+    
+}
+.h-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.date {
+    display: flex;
+    align-self: flex-end;
 }
 .search {
-    align-self: flex-end;
+    display: flex;
     margin-bottom: 20px;
 }

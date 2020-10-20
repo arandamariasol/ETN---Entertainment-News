@@ -1,7 +1,7 @@
 nav ul {
     display: flex;
     justify-content: space-around;
-    margin: 10px 0px;
+    margin: 0%;
     padding: 10px 0px;
     background-color: #e6004c;
 }
@@ -11,6 +11,7 @@ nav ul a {
 .showcase {
     display: flex;
     justify-content: space-around;
-    background-image: url("/img/etn.png");  
+    padding: 30px;
+    background-image: url("../img/background.jpg");  
+    color: #ffffff;
 }
-
