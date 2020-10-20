@@ -1,27 +1,28 @@
-nav ul {
+nav { 
+    background-color: #e6004c;
+}
+.nav-desktop {
     display: flex;
     justify-content: space-around;
     margin: 0%;
     padding: 10px 0px;
-    background-color: #e6004c;
+}
+.nav-mobile {
+    display: none;
+
 }
 @media only screen and (max-width: 600px) {
-    .nav-list {
+    /* // Si estoy viendo la web en una pantalla
+    // Y mi ancho de pantalla va de 0 a 600 px */
+    .nav-desktop {
+        display: none;
+    }
+    .nav-mobile {
         display: flex;
+        justify-content: space-around;
     }
 }
-nav ul a {
+nav a {
     color: #ffffff;
 }
-.nav-list {
-    display: flex;
-    justify-content: space-around;
-    display: none;
-}
-.showcase {
-    display: flex;
-    justify-content: space-around;
-    padding: 30px;
-    background-image: url("../img/background.jpg");  
-    color: #ffffff;
-}
+
