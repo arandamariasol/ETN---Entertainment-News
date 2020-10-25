@@ -16,8 +16,9 @@ main {
     display: flex;
     flex-basis: 69%;
     flex-direction: column;
+    flex-grow: 1;
     background:#04B4E3;
-    border-right: 10px solid #00004d;    
+    border-right: 10px solid #00004d;  
 }
 .news a {
     color: #00004d;
@@ -26,8 +27,9 @@ main {
     display: flex;
     flex-basis: 30%;
     flex-direction: column;
+    flex-grow: 1;
     align-items: center;
-    background-color:#E10D4A;#04B4E3;
+    background-color:#E10D4A;
     color: #ffffff;
 }
 .sidebar a {
