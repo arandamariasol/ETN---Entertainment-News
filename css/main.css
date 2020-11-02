@@ -12,6 +12,18 @@ main {
     border-bottom: 10px solid #00004d;
     font-style: italic;
 }
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+.row p {
+    display: none;
+}
 .news {
     display: flex;
     flex-basis: 69%;
