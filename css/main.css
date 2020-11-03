@@ -1,6 +1,7 @@
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .showcase {
     display: flex;
@@ -16,10 +17,12 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-bottom: 5px solid #00004d;
 }
 form {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .row {
     display: flex;
@@ -31,8 +34,11 @@ form {
 fieldset {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 1.5%;
     flex-basis: 45%;
+    flex-grow: 2;
+    flex-shrink: 1;
     background-color:  #00004d;
     color: white;
 }
@@ -40,7 +46,7 @@ button {
     display: flex;
     flex-basis: 20%;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 1%;
     background-color:  #e6004c;
     color: white;
