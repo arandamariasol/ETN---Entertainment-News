@@ -21,9 +21,6 @@ form {
     flex-direction: row;
     flex-basis: 100%;
 }
-.row p {
-    display: none;
-}
 .news {
     display: flex;
     flex-basis: 69%;
